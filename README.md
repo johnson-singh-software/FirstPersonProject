@@ -20,7 +20,15 @@ NPC Crowd mechanics (using Unity's Nagivation and Pathfinding):
 - Some texture materials are free assets made publicly available by Kenney (https://www.kenney.nl/)
 
 ## Showcasing Some Features
-###First Person Camera
-The Main Camera follows an empty GameObject that has been placed at head height on the Character Controller. This means the camera is positioned like a traditional first person perspective camera. Camera rotation of the Y Axis (Left and Right) is applied on the Character Controller, and camera rotation of the X Axis (Up and Down) is applied directly to the Main Camera. These are not applied to the same object to prevent stuttering visual issues.
+### First Person Camera
+The Main Camera follows an empty GameObject that has been placed at head height on the Character Controller. This means the camera is positioned like a traditional first person perspective camera. Camera rotation of the Y Axis (Left and Right) is applied on the Character Controller, and camera rotation of the X Axis (Up and Down) is applied directly to the Main Camera. These are not applied to the same object to prevent stuttering visual issues. The camera rotation on the X Axis is clamped to prevent it from rotating upside down.
+![FPS Camera](https://github.com/bM7tcHF88GBxDni/README-GIF-Storage/blob/main/camera-1.gif)
 
-![](https://github.com/bM7tcHF88GBxDni/ReadMeGIFStorage/blob/main/camera-1.gif)
+### Gravity, Jump and Double Jump
+![Jumping](https://github.com/bM7tcHF88GBxDni/README-GIF-Storage/blob/main/jumping.gif)
+
+### Climbing
+![Climbing](https://github.com/bM7tcHF88GBxDni/README-GIF-Storage/blob/main/climbing.gif)
+
+### NPCs and GIS Modelling
+![](https://github.com/bM7tcHF88GBxDni/README-GIF-Storage/blob/main/npcs%20and%20terrain.gif)
