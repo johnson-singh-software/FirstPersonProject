@@ -23,5 +23,4 @@ NPC Crowd mechanics (using Unity's Nagivation and Pathfinding):
 ###First Person Camera
 The Main Camera follows an empty GameObject that has been placed at head height on the Character Controller. This means the camera is positioned like a traditional first person perspective camera. Camera rotation of the Y Axis (Left and Right) is applied on the Character Controller, and camera rotation of the X Axis (Up and Down) is applied directly to the Main Camera. These are not applied to the same object to prevent stuttering visual issues.
 
-![](https://gifyu.com/image/VzU1)
-[![camera8aea3b4d80b225d5.gif](https://s2.gifyu.com/images/camera8aea3b4d80b225d5.gif)](https://gifyu.com/image/VzU1)
+![](https://github.com/bM7tcHF88GBxDni/ReadMeGIFStorage/blob/main/camera-1.gif)
