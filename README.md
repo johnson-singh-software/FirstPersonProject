@@ -1,5 +1,5 @@
 # FirstPersonProject
-An FPS Unity 3D Project with Climbing mechanics and NavAgents for NPC crowds. This project was developed from scratch between July 2020 - Nov 2020.
+FPS Unity 3D Project with Climbing mechanics and NavMesh Agents for NPC crowds. This project was developed from scratch between July 2020 - Nov 2020.
 
 ## Overview of Features
 Movement mechanics (using Unity's Character Controller):
@@ -10,8 +10,8 @@ Movement mechanics (using Unity's Character Controller):
 - Sprint
 - Climbing
 
-NPC Crowd mechanics (using Unity's Nagivation and Pathfinding):
-- NavMesh Agent's ("NPCs") nagivate their way to a random destination object within a certain radius
+NPC Crowd mechanics (using Unity's Navigation and Pathfinding):
+- NavMesh Agent's ("NPCs") navigate their way to a random destination object within a certain radius
   - NPCs have a small probability of waiting at destination object, before moving on to new destination
 
 3D Modelling
