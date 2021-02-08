@@ -40,6 +40,7 @@ The Main Camera follows an empty GameObject that has been placed at head height 
 ![FPS Camera](https://github.com/bM7tcHF88GBxDni/README-GIF-Storage/blob/main/camera-1.gif)
 
 ### Gravity, Jump and Double Jump
+As Character Controllers are not a part of Unity’s Physics engine they are not affected by Rigidbody, forces and gravity. I created a gravity method which applies a negative Y Axis transform to the Character Controller at all times. When jumping, the “jumping force” (a positive transform on the Y axis) needs to overcome this gravity transform. Keeping gravity enabled when jumping allows for a natural acceleration and deacceleration lerp. An Overlap Boxcast also lets checks the player is grounded before being able to jump. I then implemented a double jump by running a check against a double jump flag which is enabled after a single jump and disabled again after the double jump.
 ![Jumping](https://github.com/bM7tcHF88GBxDni/README-GIF-Storage/blob/main/jumping.gif)
 
 ### NPCs and GIS Modelling
