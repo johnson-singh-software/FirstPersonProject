@@ -1,5 +1,5 @@
 # FirstPersonProject
-FPS Unity 3D Project with Climbing mechanics and NavMesh Agents for NPC crowds. This project was developed from scratch between July 2020 - Nov 2020.
+FPS Unity 3D Project with Climbing mechanics and NavMesh Agents for NPC crowds. This project was developed from scratch between June 2020 - Nov 2020.
 
 ## Overview of Features
 Movement mechanics (using Unity's Character Controller):
@@ -44,4 +44,6 @@ As Character Controllers are not a part of Unity’s Physics engine they are not
 ![Jumping](https://github.com/bM7tcHF88GBxDni/README-GIF-Storage/blob/main/jumping.gif)
 
 ### NPCs and GIS Modelling
+NPCs navigate between nodes placed around the GIS map. They will randomly travel between destination nodes within a certain radius. All non vertical surfaces on this map can be traversed using Unity's built in Pathfinding systems. I explored this to create a sense of place in this otherwise empty location. 
+
 ![](https://github.com/bM7tcHF88GBxDni/README-GIF-Storage/blob/main/npcs%20and%20terrain.gif)
